@@ -5,6 +5,6 @@
 # Virksomhetsapplikasjon:     ???
 
 # Automatic assign the following users as reviewers when a pull request is opened
-* @jonasmw94 @JoachimHaa @augustdahl @Ed0rF
+* @kartverket/dask
 
-/.sikkerhet/ @JoachimHaa
+/.sikkerhet/ @augustdahl
