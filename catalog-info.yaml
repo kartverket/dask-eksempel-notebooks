@@ -10,29 +10,3 @@ spec:
   lifecycle: "production"
   owner: "dataplattform"
   system: "dataplattformtjenester"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Group"
-metadata:
-  name: "security_champion_dask-eksempel-notebooks"
-  title: "Security Champion dask-eksempel-notebooks"
-spec:
-  type: "security_champion"
-  parent: "it_security_champions"
-  members:
-  - "augustdahl"
-  children:
-  - "resource:dask-eksempel-notebooks"
----
-apiVersion: "backstage.io/v1alpha1"
-kind: "Resource"
-metadata:
-  name: "dask-eksempel-notebooks"
-  links:
-  - url: "https://github.com/kartverket/dask-eksempel-notebooks"
-    title: "dask-eksempel-notebooks på GitHub"
-spec:
-  type: "repo"
-  owner: "security_champion_dask-eksempel-notebooks"
-  dependencyOf:
-  - "component:dask-eksempel-notebooks"

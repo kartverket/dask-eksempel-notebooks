@@ -7,4 +7,4 @@
 # Automatic assign the following users as reviewers when a pull request is opened
 * @kartverket/dask
 
-/.sikkerhet/ @augustdahl
+/.security/ @augustdahl
